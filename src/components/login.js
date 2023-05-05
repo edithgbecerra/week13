@@ -7,11 +7,11 @@ export class login extends React.Component  {
           <form>
             <div className="input-container">
                 <label>Username </label>
-                <input type="text" name="uname" required />
+                <input type="text" name="username" />
             </div>
             <div className="input-container">
                 <label>Password </label>
-                <input type="password" name="pass" required />
+                <input type="password" name="password"/>
             </div>
             <div className="input-container">
                 <h3 className='login'>Login</h3>
